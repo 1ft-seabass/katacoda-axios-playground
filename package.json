@@ -1,0 +1,25 @@
+{
+  "name": "katacoda-line-messaging-api-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1ft-seabass/katacoda-line-messaging-api-playground.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1ft-seabass/katacoda-line-messaging-api-playground/issues"
+  },
+  "homepage": "https://github.com/1ft-seabass/katacoda-line-messaging-api-playground#readme",
+  "dependencies": {
+    "@line/bot-sdk": "^6.8.0",
+    "express": "^4.17.1"
+  }
+}
