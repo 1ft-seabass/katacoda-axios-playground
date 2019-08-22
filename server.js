@@ -1,7 +1,8 @@
 const axios = require('axios');
 
-// Get Google search GET Request
-axios.get('https://www.google.com/search?q=axios')
+// Get HTTPbin GET Request
+// It is copy response call.
+axios.get('https://httpbin.org/')
   .then(function (response) {
     // handle success
     console.log(response);
